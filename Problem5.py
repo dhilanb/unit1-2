@@ -1,0 +1,5 @@
+A= int(input("How many feet does a nail go up during the day? "))
+B= int(input("How many feet does the snail fall at night? "))
+H= int(input("How high would you like the snail to go up? "))
+days= H/(A-B)
+print("It will take the snail "+str(days)+" days to go up "+str(H)+" feet.")

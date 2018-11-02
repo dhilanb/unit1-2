@@ -1,0 +1,10 @@
+name1= input("Student 1, what is your name? ")
+gpa1=float(input(name1+" what's your gpa? "))
+name2=input("Student 2, what is your name? ")
+gpa2=float(input(name2+" what's your gpa? "))
+name3=input("Student 3, what is your name? ")
+gpa3=float(input(name3+" what's your gpa? "))
+name4=input("Student 4, what is your name? ")
+gpa4=float(input(name4+" what's your gpa? "))
+averageGPA=(gpa1+gpa2+gpa3+gpa4)/4
+print("The average GPA of "+name1+", "+name2+", "+name3+", and  "+name4+" is "+str(averageGPA))
